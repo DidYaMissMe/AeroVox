@@ -36,7 +36,7 @@ To set up and run AeroVox on your local machine, follow these steps:
 ### Installation Steps
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/AeroVox.git
+   git clone https://github.com/DidYaMissMe/AeroVox.git
    cd AeroVox
    ```
 
@@ -62,11 +62,11 @@ To set up and run AeroVox on your local machine, follow these steps:
 
 2. **Issue Voice Commands**
    - Use your microphone to issue commands such as:
-     - "Arm the drone"
+     - "Arm"
      - "Take off"
      - "Go north"
-     - "Increase altitude"
-     - "Return home"
+     - "Go [altitude in meters]"
+     - "Return"
 
 3. **Monitor Telemetry**
    - View live telemetry data including drone location, altitude, and status within the web interface.
@@ -76,11 +76,11 @@ To set up and run AeroVox on your local machine, follow these steps:
 
 ## Demo
 Experience a demonstration of AeroVox by watching the following video:
-- **[AeroVox Demo Video](#)**: This video showcases the primary functionalities of AeroVox, including voice commands, 3D spatial constraints, and real-time telemetry monitoring.
+- **[AeroVox Demo Video](https://www.youtube.com/)**: This video showcases the primary functionalities of AeroVox, including voice commands, 3D spatial constraints, and real-time telemetry monitoring.
 
 ## Code Walkthrough
 Gain insights into the application's codebase with our detailed walkthrough video:
-- **[AeroVox Code Walkthrough](#)**: This video provides a comprehensive tour of the code structure, explaining key components developed with Vue.js, integration of MQTT for real-time communication, and implementation of voice control functionalities.
+- **[AeroVox Code Walkthrough](https://www.youtube.com/)**: This video provides a comprehensive tour of the code structure, explaining key components developed with Vue.js, integration of MQTT for real-time communication, and implementation of voice control functionalities.
 
 ## Contribution Guidelines
 We welcome contributions to enhance the functionality and performance of AeroVox. To contribute:
